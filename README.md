@@ -4,18 +4,19 @@
 
 ## Project Structure
 DT_Crystallography/
-├── analyzeData_all.py # Script for running loadData_all.py that process specified cif files
 
-├── loadData_all.py # Loads and preprocessesing cif files into NumPy ndarrays
+├── analyzeData_all.py     # Script for running loadData_all.py that process specified cif files
 
-├── merged_file.py # Merges multiple NumPy ndarrays
+├── loadData_all.py        # Loads and preprocessesing cif files into NumPy ndarrays
 
-├── crop_data.py # Crops datasets based on specified mode(full, half, half+)
+├── merged_file.py         # Merges multiple NumPy ndarrays
 
-├── models_loss.py # Defines ML models and loss functions
+├── crop_data.py           # Crops datasets based on specified mode(full, half, half+)
+
+├── models_loss.py         # Defines ML models and loss functions
 
 ├── transform_load_data.py # Defines DataLoader and transformotaion of train and validation dataset
 
-├── train_model.py # Trains model and predict phases.
+├── train_model.py         # Trains model and predict phases.
 
-├── README.md # Project documentation
+├── README.md              # Project documentation
